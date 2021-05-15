@@ -1,0 +1,24 @@
+{
+  "name": "baseball-junkie",
+  "version": "1.0.0",
+  "description": "App for baseball enthusiasts",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteveGekas/Baseball-Junkie.git"
+  },
+  "author": "Steve Gekas, Steven Elliott, Jonathan Goldstein, Chris Picano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SteveGekas/Baseball-Junkie/issues"
+  },
+  "homepage": "https://github.com/SteveGekas/Baseball-Junkie#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.9"
+  }
+}
