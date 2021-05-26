@@ -1,6 +1,41 @@
 .content {
     max-width: 500px;
     margin: auto;
-    background: white;
+    background: linear-gradient(
+      to bottom,
+      #200202 0%,
+      #cf0404 20%,
+      #cf0404 46%,
+      #c10303 51%,
+      #a51603 69%,
+      #0c0100 88%
+      );
     padding: 10px;
   }
+
+  .navbar {
+    background: linear-gradient(
+    to bottom,
+    #200202 0%,
+    #cf0404 20%,
+    #cf0404 46%,
+    #c10303 51%,
+    #a51603 69%,
+    #0c0100 88%
+    )
+  }
+
+  /* favorite team news card */
+  .teamNews {
+    max-width: 500px;
+    margin: auto;
+    background: rgb(20, 73, 104);
+    padding: 10px;
+  }
+
+  
+body {
+  background: rgba(1, 1, 10, 0.877);
+  color: white;
+}
+

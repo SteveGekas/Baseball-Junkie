@@ -5,10 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="css/signup.css">
     
     <title>Baseball Junkie</title>
 </head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../pages/index.html">Baseball Junkie</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/profile.html">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/favoriteTeam.html">Team Chat</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../public/signup.html">Login</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
 <body>
     <div class="content">
         <div class="col-md-6">
@@ -16,18 +39,18 @@
       
           <form class="form new-project-form">
             <div class="form-group">
-              <label for="profile-name">Name:</label>
-              <input class="form-input" type="text" id="profile-name" name="profile-name" />
+              <label for="profile-name" ></label>
+              <input class="form-input" type="text" id="profile-name" name="profile-name" placeholder="Name"/>
             </div>
 
             <div class="form-group">
-                <label for="profile-username">Username:</label>
-                <input class="form-input" type="text" id="profile-username" name="profile-username" />
+                <label for="profile-username"></label>
+                <input class="form-input" type="text" id="profile-username" name="profile-username" placeholder="Username"/>
               </div>
 
               <div class="form-group">
-                <label for="profile-password">Password:</label>
-                <input class="form-input" type="text" id="profile-password" name="profile-password" />
+                <label for="profile-password"></label>
+                <input class="form-input" type="text" id="profile-password" name="profile-password" placeholder="Password"/>
               </div>
 
             <div class="form-group">
@@ -70,8 +93,9 @@
               <!-- {{!-- <input class="form-input" type="text" id="profile-system" name="profile-system" /> --}} -->
             </div>
             <div class="form-group">
-              <label for="profile-desc">description:</label>
-              <textarea class="form-input" id="profile-desc" name="profile-desc"></textarea>
+              <label for="profile-desc">Description:</label>
+              <textarea class="form-input" id="profile-desc" name="profile-desc">
+              </textarea>
             </div>
             <div class="form-group">
               <button type="submit" class="btn btn-primary">Submit</button>
