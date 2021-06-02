@@ -6,7 +6,11 @@ router.get('/', function (req, res, next) {
 	return res.render('index.ejs');
 });
 
-
+router.get('/favoriteTeam', (req, res) => {
+	console.log('Request for about favoriteTeams recieved');
+	res.render('favoriteTeam');
+  });
+  
 router.post('/', function(req, res, next) {
 	console.log(req.body);
 	var personInfo = req.body;
@@ -95,6 +99,7 @@ router.get('/profile', function (req, res, next) {
 	});
 });
 
+
 router.get('/logout', function (req, res, next) {
 	console.log("logout")
 	if (req.session) {
@@ -138,6 +143,8 @@ router.post('/forgetpass', function (req, res, next) {
 		}
 		}
 	});
+
+	
 	
 });
 
