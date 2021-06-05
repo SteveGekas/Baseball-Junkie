@@ -6,9 +6,6 @@ class Auth0ProviderWithHistory extends React.Component {
   domain = process.env.REACT_APP_AUTH0_DOMAIN;
   clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
   audience = process.env.REACT_APP_AUTH0_AUDIENCE;
-  appID = process.env.REACT_APP_AUTH0_APP_ID;
-  region = process.env.REACT_APP_AUTH0_REGION;
-  ccAuthKey = process.env.REACT_APP_AUTH0_AUTH_KEY_COMET_CHAT;
 
   onRedirectCallback = (appState) => {
     this.props.history.push(appState?.returnTo || window.location.pathname);
