@@ -1,7 +1,7 @@
 import React from "react";
 import { withAuth0 } from "@auth0/auth0-react";
 
-class ExternalApi extends React.Component {
+class ChatApi extends React.Component {
   state = {
     message: "",
   };
@@ -92,4 +92,4 @@ class ExternalApi extends React.Component {
   }
 }
 
-export default withAuth0(ExternalApi);
+export default withAuth0(ChatApi);
