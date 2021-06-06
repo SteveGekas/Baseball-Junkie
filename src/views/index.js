@@ -1,5 +1,5 @@
-import ExternalApi from "./external-api";
+import ChatApi from "./chatApi";
 import Home from "./home";
 import Profile from "./profile";
 
-export { ExternalApi, Home, Profile };
+export { ChatApi, Home, Profile };
