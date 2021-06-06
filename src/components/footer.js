@@ -5,12 +5,9 @@ class Footer extends React.Component {
     return (
       <footer className="bg-dark p-3 text-center">
         <div className="logo" />
-        <p>
-          This project uses {" "}
-          <a target="_blank" rel="noopener noreferrer" href="https://auth0.com">
-            Auth0
-          </a>
-        </p>
+        <h3 className="lead">
+          I think there are about 1-2 million baseball fields in the world, but that’s just a ballpark number. 
+        </h3>
       </footer>
     );
   }
