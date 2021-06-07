@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Baseballapi from "./baseballapi";
+
 import { Hero, HomeContent } from "../components";
 
 class Home extends React.Component {
@@ -7,9 +7,7 @@ class Home extends React.Component {
     return (
       <Fragment>
         <Hero />
-        <Baseballapi>
         
-        </Baseballapi>
         <HomeContent />
       </Fragment>
     );
