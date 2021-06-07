@@ -1,5 +1,6 @@
 import React from "react";
 import { withAuth0 } from "@auth0/auth0-react";
+import chatImg from "../views/img/twilio-chat.png"
 
 class ChatApi extends React.Component {
   state = {
@@ -47,12 +48,11 @@ class ChatApi extends React.Component {
   render() {
     return (
       <div>
-        <h1>External API</h1>
+        <h1>Twilio Chat</h1>
         <p>
-          You use will use a button to call an external API using an access
-          token, and the API will validate it using the API's audience value.
+          You use will use buttons to choose your chat room. Below is an example of what the chat looks like.
           <br />
-          <strong>This route should be protected</strong>.
+          
         </p>
         <div
           className="btn-group mt-5"
@@ -87,6 +87,7 @@ class ChatApi extends React.Component {
             </div>
           </div>
         )}
+        <img src={chatImg} alt="" />
       </div>
     );
   }

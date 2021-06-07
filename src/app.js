@@ -24,7 +24,7 @@ class App extends React.Component {
             <Switch>
               <Route path="/" exact component={Home} />
               <ProtectedRoute path="/profile" component={Profile} />
-              <ProtectedRoute path="/external-api" component={ChatApi} />
+              <ProtectedRoute path="/chatApi" component={ChatApi} />
             </Switch>
           </div>
         </div>

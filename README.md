@@ -31,7 +31,7 @@ We developed our web application to connect baseball enthusiasts with like-minde
 
 ## CONTRIBUTION
 ```
-Steven Elliott @elliott-steven [steven.elliott@live.com]
-Steve Gekas @SteveGekas [steve's email]
-Christopher Picano @chrispicano [chris' email]
+Steven Elliott @elliott-steven 
+Steve Gekas @SteveGekas 
+Christopher Picano @chrispicano 
 ```
