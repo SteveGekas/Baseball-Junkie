@@ -6,8 +6,10 @@ class Profile extends React.Component {
   render() {
     const { user } = this.props.auth0;
     const { name, picture, email } = user;
+    
 
     return (
+      
       <div>
         <div className="row align-items-center profile-header">
           <div className="col-md-2 mb-3">
@@ -28,6 +30,7 @@ class Profile extends React.Component {
           </pre>
         </div>
       </div>
+      
     );
   }
 }
