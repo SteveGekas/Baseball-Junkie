@@ -37,6 +37,11 @@ const options = {
 };
 
 axios.request(options).then(function (response) {
+    response.results (function (elem) {
+        var resultDiv = ("<div>")
+      resultDiv.addClass("card mb-4 cardStyle")
+      resultDiv.text(`{elem.name}`)
+    })
 	console.log(response.data);
 }).catch(function (error) {
 	console.error(error);
@@ -48,7 +53,7 @@ axios.request(options).then(function (response) {
         console.log(items);
 
         if(!isLoaded) {
-            return<div>Loading...</div>;
+            return <div>Loading...</div>;
         }
 
         else{
