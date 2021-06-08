@@ -1,8 +1,11 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
+import WelcomeScreen from "./WelcomeScreen";
+import ChatScreen from "./ChatScreen";
+
 
 import { NavBar, Footer, Loading } from "./components";
-import { Home, Profile, ChatApi } from "./views";
+import { Home, Profile} from "./views";
 import { withAuth0 } from "@auth0/auth0-react";
 import ProtectedRoute from "./auth/protected-route";
 
@@ -24,7 +27,8 @@ class App extends React.Component {
             <Switch>
               <Route path="/" exact component={Home} />
               <ProtectedRoute path="/profile" component={Profile} />
-              <ProtectedRoute path="/chatApi" component={ChatApi} />
+              <ProtectedRoute path="/welcomescreen" component={WelcomeScreen} />
+              <ProtectedRoute exact path="/chat" component={ChatScreen} />
             </Switch>
           </div>
         </div>

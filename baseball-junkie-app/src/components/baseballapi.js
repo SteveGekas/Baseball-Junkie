@@ -43,24 +43,30 @@ class Baseballapi extends Component {
 
         else {
             return (
-                <div className="Baseballapi">
+                
                     <ul>
                         {standings && standings.map((team, index) => (
                             <Fragment key={index}>
-                                <li key={index}>
-                                    Name: {team.team.name}
-                                </li>
+                                <div class="flexbox-container">
+                                    <div class="col-sm-4">
+                                        <div className="card">
+                                            <img class="card-img-top" src={team.team.logo} alt="" />
+                                            <div class="card-text" key={index}>
+                                               
+                                                    <p> Name: {team.team.name}</p>
+                                                    <p>Standings: {team.position}</p>
+                                                
 
-                                <li>
-                                    Standings: {team.position}
-                                </li>
-                                <img src={team.team.logo} />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </Fragment>
 
                         ))}
 
                     </ul>
-                </div>
+                
             );
 
         }

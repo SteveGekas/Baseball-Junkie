@@ -72,3 +72,12 @@ code {
 .navbar .nav-container {
   background-color: rgb(48, 47, 47);
 }
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  color: black;
+  font-size: larger;
+}
