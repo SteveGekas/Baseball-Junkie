@@ -41,7 +41,7 @@ class ChatScreen extends React.Component {
     const { location } = this.props;
     const { state } = location || {};
     const { email, room } = state || {};
-    let token = "";
+    let token = "7d68b6af7394b2d51ccde66644d37a88";
 
     if (!email || !room) {
       this.props.history.replace("/");
@@ -50,7 +50,7 @@ class ChatScreen extends React.Component {
     this.setState({ loading: true });
 
     try {
-      token = await this.getToken(email);
+    token = await this.getToken(email);
     } 
     catch {
       throw new Error("unable to get token, please reload this page");
