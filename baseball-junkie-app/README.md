@@ -17,9 +17,9 @@ We developed our web application to connect baseball enthusiasts with like-minde
 
 ## Credit
 ```
-* [https://materializecss.com/]
+* [https://twilio.com]
 * [https://heroku.com/]
-* [https://www.rover.com/] app we model out project
+* [https://balsamiq.com] app we model out project
 * []
 ```
 

@@ -22,7 +22,7 @@ class MainNav extends React.Component {
           Profile
         </NavLink>
         <NavLink
-          to="/chatApi"
+          to="/welcomescreen"
           exact
           className="nav-link"
           activeClassName="router-link-exact-active"
